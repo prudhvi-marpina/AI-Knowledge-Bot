@@ -1,0 +1,11 @@
+streamlit
+transformers
+sentence-transformers
+spacy
+datasets
+wikipedia-api
+SPARQLWrapper
+matplotlib
+numpy
+seaborn
+
