@@ -2,8 +2,8 @@ import streamlit as st
 from wikipedia_fetch import fetch_wikipedia
 from sentence_transformers import SentenceTransformer, util
 from transformers import AutoModelForQuestionAnswering, AutoTokenizer, pipeline
-from summarizer import summarize_text
-from preprocess import preprocess_query
+from Summarizer import summarize_text
+from Data_preprocessing import preprocess_query
 from wikidata_fetch import fetch_from_wikidata, fetch_from_dbpedia, fetch_from_conceptnet
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix, precision_recall_fscore_support
 import matplotlib.pyplot as plt
